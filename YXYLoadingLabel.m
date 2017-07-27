@@ -55,6 +55,12 @@
     _lineColor = lineColor;
 }
 
+- (void)startAniamtion{
+    [self createAnimation];
+}
 
+- (void)stopAnimation{
+    [_shapeLayer removeAllAnimations];
+}
 
 @end

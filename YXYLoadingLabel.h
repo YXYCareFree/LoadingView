@@ -10,6 +10,10 @@
 
 @interface YXYLoadingLabel : UILabel
 
-@property (nonatomic, strong) UIColor * lineColor;
+@property (nonatomic, strong) UIColor * lineColor;//加载动画的颜色
+
+- (void)startAniamtion;
+
+- (void)stopAnimation;
 
 @end

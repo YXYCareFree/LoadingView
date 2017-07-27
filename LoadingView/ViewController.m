@@ -22,6 +22,16 @@
     loadingLabel.lineColor = [UIColor blackColor];
     loadingLabel.text = @"loading";
     [self.view addSubview:loadingLabel];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [loadingLabel stopAnimation];
+//        [loadingLabel removeFromSuperview];
+    });
+    
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [loadingLabel startAniamtion];
+    });
 }
 
 
