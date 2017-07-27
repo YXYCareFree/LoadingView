@@ -15,6 +15,7 @@
 		9A62F45C1F29C5D000319E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62F45A1F29C5D000319E6B /* LaunchScreen.storyboard */; };
 		9A62F4671F29C5D000319E6B /* LoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A62F4661F29C5D000319E6B /* LoadingViewTests.m */; };
 		9A62F4721F29C5D000319E6B /* LoadingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A62F4711F29C5D000319E6B /* LoadingViewUITests.m */; };
+		9A62F4841F29CCCF00319E6B /* YXYLoadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A62F4831F29CCCF00319E6B /* YXYLoadingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9A62F46D1F29C5D000319E6B /* LoadingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A62F4711F29C5D000319E6B /* LoadingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingViewUITests.m; sourceTree = "<group>"; };
 		9A62F4731F29C5D000319E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A62F4821F29CCCF00319E6B /* YXYLoadingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYLoadingLabel.h; sourceTree = "<group>"; };
+		9A62F4831F29CCCF00319E6B /* YXYLoadingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXYLoadingLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		9A62F4401F29C5D000319E6B = {
 			isa = PBXGroup;
 			children = (
+				9A62F4821F29CCCF00319E6B /* YXYLoadingLabel.h */,
+				9A62F4831F29CCCF00319E6B /* YXYLoadingLabel.m */,
 				9A62F44B1F29C5D000319E6B /* LoadingView */,
 				9A62F4651F29C5D000319E6B /* LoadingViewTests */,
 				9A62F4701F29C5D000319E6B /* LoadingViewUITests */,
@@ -276,6 +281,7 @@
 				9A62F4541F29C5D000319E6B /* ViewController.m in Sources */,
 				9A62F4511F29C5D000319E6B /* AppDelegate.m in Sources */,
 				9A62F44E1F29C5D000319E6B /* main.m in Sources */,
+				9A62F4841F29CCCF00319E6B /* YXYLoadingLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

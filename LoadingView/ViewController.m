@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YXYLoadingLabel.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    YXYLoadingLabel * loadingLabel = [[YXYLoadingLabel alloc] initWithFrame:CGRectMake(100, 100, 70, 70)];
+    loadingLabel.lineColor = [UIColor blackColor];
+    loadingLabel.text = @"loading";
+    [self.view addSubview:loadingLabel];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 
 @end
